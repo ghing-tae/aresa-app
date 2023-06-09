@@ -36,6 +36,21 @@
         touch src/server.js
         ```
         
+        * Node.js 웹 애플리케이션 프레임워크입니다. 다음 명령어로 설치할 수 있습니다: 
+        ```bash
+        npm install express
+        ```
+
+        * HTTP 요청의 body를 파싱하는 미들웨어입니다. Express.js와 함께 사용하기 위해 설치합니다: 
+        ```bash
+        npm install body-parser
+        ```
+        
+        * HTTP 클라이언트 라이브러리로, 서버와의 HTTP 요청을 보내기 위해 사용합니다: 
+        ```bash
+        npm install axios
+        ```        
+        
     4. Database 테이블 생성 sql: 
         * 아파트(Apartment) 테이블 생성 SQL:
         ```sql
