@@ -23,7 +23,7 @@
         npm install vuex
         ```
 
-        * Chart 설치, Chart는 그래프와 차트를 생성하기 위한 라이브러리입니다.:
+        * Chart 설치, Chart는 그래프와 차트를 생성하기 위한 라이브러리입니다:
         ```bash
         npm install chart.js
         ```
@@ -46,7 +46,7 @@
         ```
         
     3. Backend 설치 command: 
-        * 다음 명령어로 백엔드 파일과 폴더를 생성합니다.:
+        * 다음 명령어로 백엔드 파일과 폴더를 생성합니다:
         ```bash
         mkdir src/routes
         touch src/routes/aresa-api.js
