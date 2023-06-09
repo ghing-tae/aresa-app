@@ -12,17 +12,34 @@
         ```bash
         npm install -g @vue/cli
         ```
+
+        * Vue Router 설치:
+        ```bash
+        npm install vue-router
+        ```
+
+        * Vuex 설치:
+        ```bash
+        npm install vuex
+        ```
+
+        * Chart 설치, Chart는 그래프와 차트를 생성하기 위한 라이브러리입니다.:
+        ```bash
+        npm install chart.js
+        ```
+
         * Vue 프로젝트 생성:
         ```bash
         vue create aresa-app
         ```
-        1. "Manually select features" 옵션을 선택합니다.
-        2. 다음으로 진행하여 사용할 기능을 선택합니다. 여기서는 "Babel", "Router", "Vuex", "CSS Pre-processors", "Linter / Formatter"를 선택합니다. 선택을 완료하고 Enter 키를 눌러 진행합니다.
-        3. "Use history mode for router?"라는 질문에는 "Yes"를 선택합니다.
-        4. CSS Pre-processors에서는 "Sass/SCSS (with dart-sass)"를 선택합니다.
-        5. Linter / Formatter에서는 "ESLint + Prettier"를 선택합니다.
-        6. "Save this as a preset for future projects?"라는 질문에는 "No"를 선택합니다.
         
+            1. "Manually select features" 옵션을 선택합니다.
+            2. 다음으로 진행하여 사용할 기능을 선택합니다. 여기서는 "Babel", "Router", "Vuex", "CSS Pre-processors", "Linter / Formatter"를 선택합니다. 선택을 완료하고 Enter 키를 눌러 진행합니다.
+            3. "Use history mode for router?"라는 질문에는 "Yes"를 선택합니다.
+            4. CSS Pre-processors에서는 "Sass/SCSS (with dart-sass)"를 선택합니다.
+            5. Linter / Formatter에서는 "ESLint + Prettier"를 선택합니다.
+            6. "Save this as a preset for future projects?"라는 질문에는 "No"를 선택합니다.
+
         * 프로젝트 폴더로 이동:
         ```bash
         cd aresa-app
