@@ -84,10 +84,35 @@
         ```
         
 3. 예제 실행 Step 별 화면 변경사항 
-    1. DB에 아무 정보 없을 때 화면 
+    1. DB에 아무 정보 없을 때 화면: 
+        ![DB에 아무 정보 없을 때 화면](./src/assets/1.png)
+
     2. POST historical_price 에 임의의 값 post 
-        1. post curl 커멘드 
-        2. post 이후 새로고침 화면 
+        1. post curl 커멘드: 
+            * curl post historical_prices:
+            ```bash
+            curl -X POST -H "Content-Type: application/json" -d '{
+              "aptId": 101,
+              "year": 2023,
+              "monthStart": 1,
+              "values": [1300, 1400, 1200, 1500, 1550]
+            }' http://localhost:3000/aresa-api/historical_prices
+            ```
+            
+        2. post 이후 새로고침 화면: 
+        ![post 이후 새로고침 화면](./src/assets/2.png)
+        
     3. POST futurel_price 에 임의의 값 post 
-        1. post curl 커멘드 
-        2. post 이후 새로고침 화면
+        1. post curl 커멘드: 
+            * curl post future_prices:
+            ```bash
+            curl -X POST -H "Content-Type: application/json" -d '{
+              "aptId": 101,
+              "year": 2023,
+              "monthStart": 1,
+              "values": [1300, 1400, 1200, 1500, 1550, 1800, 1900, 2000, 2100, 2200, 2300, 2400]
+            }' http://localhost:3000/aresa-api/future_prices
+            ```
+            
+        2. post 이후 새로고침 화면: 
+        ![post 이후 새로고침 화면](./src/assets/3.png)
